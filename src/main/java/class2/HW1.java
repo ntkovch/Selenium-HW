@@ -2,6 +2,7 @@ package class2;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class HW1 {
@@ -26,7 +27,6 @@ public class HW1 {
         Thread.sleep(2000);
         driver.findElement(By.xpath("//input[@autocomplete='new-password']")).sendKeys("092hyr35cc778");
         Thread.sleep(2000);
-        driver.findElement(By.xpath("//select[@aria-label='Місяць']"));
         driver.close();
 
     }
